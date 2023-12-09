@@ -5,7 +5,7 @@ const Route=(app)=>{
 
 const {hoemcontroller,redgcontroller,logincontroller,servicecontroller,dataputcontroller,deletedata,deletedataall,logoutme}=require("../controller/controller");
 
-app.get("/",auth,hoemcontroller);
+app.get("/",hoemcontroller);
 app.post("/signup",redgcontroller);
 app.post("/signin",logincontroller);
 app.post("/putdata",auth,dataputcontroller);
