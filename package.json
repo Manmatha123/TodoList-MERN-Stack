@@ -12,10 +12,11 @@
   "name": "server",
   "version": "1.0.0",
   "description": "This is a complete MERN stack todo list app",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npm install"
   },
   "author": "Manmatha Mandal",
   "license": "ISC"
